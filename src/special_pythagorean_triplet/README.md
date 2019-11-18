@@ -1,11 +1,5 @@
 # Solution
 
-  
-
-Open main for solution.
-
-<br/>
-
 Rather than coding up this problem, I simply thought of the simple ways to generate Pythagorean Triples for even and odd numbers. Given that $a$ is part of a Pythagorean Triple $(a, b, c)$,
 <br/>
 1. If $a$ is odd, the other two sides are floor($\frac{a^2}{2}$) and ceil($\frac{a^2}{2}$).
