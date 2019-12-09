@@ -1,7 +1,7 @@
-multiples = {3}
+answer = 0
 
 for i in range(5, 1000):
     if i % 3 == 0 or i % 5 == 0:
-        multiples.add(i)
+        answer += i
 
-print(sum(multiples))
+print(answer)
